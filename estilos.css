@@ -1,4 +1,4 @@
-/* ******* VARIABLES ****** */
+/* ********** VARIABLES ********* */
 
 :root{
     --color-primario:#13a8fe;
@@ -38,7 +38,7 @@
     src: url(fonts/Rampart_One/RampartOne-Regular.ttf);
 }
 
-/*! ******* GENERALES ****** */
+/*! ********** GENERALES ********* */
 
 *{
     margin: 0;
@@ -70,7 +70,7 @@ a{
 }
 
 
-/*! ****Menú principal**** */
+/*! *********Menú principal********* */
 nav{
     position: fixed;
     width: 100%;
@@ -103,7 +103,7 @@ nav .img_logo img:hover{
     box-shadow: 0 0 0 12px rgb(0, 0, 0, 0.07);
 }
 
-/*? ****Input del menú**** */
+/*? ******* Input del menú ******* */
 
 .input_container{
     flex: 1 1 auto;
@@ -153,7 +153,7 @@ nav input:focus ~ i{
 } 
 
 
-/*? ****Menú iconos**** */
+/*? ******* Menú iconos ******* */
 
 .icons{
     display: flex;
@@ -235,7 +235,7 @@ nav .icons img{
     border-radius: 16px;
 }
 
-/*****? hover de post ******/
+/*? ******** hover de post ********* */
 
 
 .container_img div{
@@ -324,4 +324,54 @@ nav .icons img{
 .container_img .bottom_row a:nth-child(3){
     width: 32px;
     justify-content: center;
+}
+
+
+/*? ******* Información de post ********** */
+
+.info_img{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+}
+
+.info_img .info{
+    display: flex;
+    align-items: center;
+}
+
+.info_img .info img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info_img .info a{
+    font-size: 14px;
+    color: var(--color-gris400);
+    padding: 0 5px;
+}
+
+.info_img .info a:hover{
+    text-decoration: underline;
+}
+
+.reactions{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.reactions img{
+    width: 16px;
+    height: 16px;
+    margin-right: 1px;
+}
+
+.reactions span{
+    font-size: 14px;
+    margin-left: 5px;
+    color: var(--color-gris400);
 }
