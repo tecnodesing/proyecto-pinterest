@@ -375,3 +375,32 @@ nav .icons img{
     margin-left: 5px;
     color: var(--color-gris400);
 }
+
+
+/*? ******* Botones inferiores ********* */
+
+.btn_inferiores{
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_inferiores a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-blanco);
+    color: var(--color-gris400);
+    font-size: 20px;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 5px 0;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.btn_inferiores a:hover{
+    background: var(--color-gris100);
+}
